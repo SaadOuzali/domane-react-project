@@ -1,0 +1,71 @@
+.box{
+  background-color: red;
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 35px;
+  margin-top: 0px;
+}
+
+.bg{
+ margin-left: 50px;
+}
+
+img{
+  width: 150px;
+}
+
+.btn{
+  background-color: aqua;
+}
+
+.card{
+  border: 5px solid red;
+height: 300px;
+  width: 300px;
+}
+
+.img{
+  background-image: url('365.PNG');
+}
+
+.data{
+  height: 500px;
+  background-color: #eeeef3;
+  margin-bottom: 50px;
+  
+}
+
+body{
+  background-color: #f6f7f6  ;
+}
+
+.footer{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div2{
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer2{
+  display: flex;
+  justify-content: space-between;
+}
+
+h4{
+  padding: 10px;
+}
