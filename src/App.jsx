@@ -2,11 +2,12 @@ import { useState } from "react";
 
 import { Box, Button, Container } from "@mui/material";
 import "./App.css";
-import Card from "./component/Mediacard";
+// import Card from "./component/Mediacard";
 import SwiperMedia from "./component/SwiperMedia";
 import { arr3 } from "./arrayImages";
 import { arr2 } from "./arrayImages";
 import { arr4 } from "./arrayImages";
+import { Card, Typography } from '@mui/material';
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -14,13 +15,23 @@ export default function App() {
   return (
     <>
       <div style={{ backgroundColor: "white" }}>
+
+
         {/* header */}
-        <Box className sx={{ backgroundColor: "#4b0000", height: "100px" }}>
+        {/* <Box className sx={{ backgroundColor: "#4b0000", height: "100px" }}>
           <div className="bg">
             <img src="https://aujourdhui.ma/wp-content/uploads/2016/02/866360274.jpg" />
           </div>
-        </Box>
+        </Box> */}
 
+
+        <div className='nav'>
+          <div className="bg">
+            <img src="https://aujourdhui.ma/wp-content/uploads/2016/02/866360274.jpg" />
+          </div>
+        </div>
+
+        {/* {body} */}
         <div style={{ backgroundColor: "white" }}>
           <Container style={{ marginBottom: 50 }}>
             <h1>solution</h1>
@@ -43,7 +54,7 @@ export default function App() {
         </div>
 
         {/* footer */}
-        {/* <Box className sx={{ backgroundColor: "#4b0000", height: "100px" }}>
+        {/* <Box className='nav' >
           <div className="bg footer">
             <div className="div2">
               <Button
@@ -68,6 +79,15 @@ export default function App() {
           <h4  >Copyright © Les Domaines Agricoles 2025</h4>
           <h4>condition d'utilisation</h4>
         </div>
+
+
+        
+        {/* <Typography
+        variant="h6"
+        sx={{ display: { xs: 'none', sm: 'block' } }} // Hide on extra small screens
+      >
+        This is H4 on large screens
+      </Typography> */}
 
         {/* <div style={{height:400,width:300,border:"1px solid red"}}>
 
