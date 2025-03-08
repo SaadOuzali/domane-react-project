@@ -50,3 +50,9 @@ export const arr4 = [
     name: "SOWIT",
   },
 ];
+
+export const buttons = [
+  { id: 1, name: "SOLUTION", path: "" },
+  { id: 2, name: "DATA", path: "" },
+  { id: 3, name: "IOT", path: "" },
+];

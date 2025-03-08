@@ -1,0 +1,14 @@
+.mimg{
+   width: 100%; 
+    
+}
+
+
+@media (max-width:600px) {
+    .mimg{
+        width: 100%; 
+         
+     }
+}
+
+/* $bg: #FEF5DF; */

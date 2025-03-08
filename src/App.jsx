@@ -8,23 +8,17 @@ import { arr3 } from "./arrayImages";
 import { arr2 } from "./arrayImages";
 import { arr4 } from "./arrayImages";
 import { Card, Typography } from '@mui/material';
-
+import CounterClick from "./HOC/CounterClick";
+import CounterHover from "./HOC/CounterHover";
 export default function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div style={{ backgroundColor: "white" }}>
+      <div >
 
 
         {/* header */}
-        {/* <Box className sx={{ backgroundColor: "#4b0000", height: "100px" }}>
-          <div className="bg">
-            <img src="https://aujourdhui.ma/wp-content/uploads/2016/02/866360274.jpg" />
-          </div>
-        </Box> */}
-
-
         <div className='nav'>
           <div className="bg">
             <img src="https://aujourdhui.ma/wp-content/uploads/2016/02/866360274.jpg" />
@@ -47,7 +41,7 @@ export default function App() {
         </div>
 
         <div style={{ backgroundColor: "white" }}>
-          <Container style={{ marginBottom: 50 }}>
+          <Container >
             <h1>iot</h1>
             <SwiperMedia data={arr4} />
           </Container>
@@ -80,26 +74,14 @@ export default function App() {
           <h4>condition d'utilisation</h4>
         </div>
 
-
         
-        {/* <Typography
-        variant="h6"
-        sx={{ display: { xs: 'none', sm: 'block' } }} // Hide on extra small screens
-      >
-        This is H4 on large screens
-      </Typography> */}
 
-        {/* <div style={{height:400,width:300,border:"1px solid red"}}>
 
-  <div style={{height:180,width:250,border:"1px solid black",margin:"auto"}}>
+    
 
-  </div> 
 
-</div> */}
 
-        {/* <div>
-      <img src="365.png" alt="" />
-    </div> */}
+    
       </div>
     </>
   );
