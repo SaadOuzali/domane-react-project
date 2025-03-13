@@ -14,10 +14,10 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 import MediaCard from "./Mediacard";
 import { arr2 } from "../arrayImages";
 export default function SwiperMedia({ data }) {
-  console.log("1", data);
+ 
   const [images, setImages] = useState(data);
 
-  console.log("2", images);
+  
   return (
     <>
       <Swiper
@@ -39,7 +39,7 @@ export default function SwiperMedia({ data }) {
         {images.map((img) => {
           return (
             <SwiperSlide>
-              <MediaCard img={`/${img.img}`} name={img.name} />
+              <MediaCard img={`/${img.img}`} name={img.name} path={img.path} />
             </SwiperSlide>
           );
         })}

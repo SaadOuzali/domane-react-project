@@ -21,90 +21,7 @@ export default function () {
           <h1>solution</h1>
             </div>
             
-          {/* <Box
-            sx={{
-              height: "500px",
-              width: "100%",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-              
-            }}
-          >
-            <Grid container spacing={5} justifyContent="center">
-              {buttons.map((item) => (
-                <Grid
-                  item
-                  xs={12} // Full width on phones (1 per row)
-                  sm={12} // Full width on tablets (1 per row)
-                  md={4} // Full width on medium screens (1 per row)
-                  lg={4} // 3 per row on large screens
-                  xl={4} // 3 per row on extra-large screens
-                  key={item.id}
-                  sx={{height:{
-                    xs: "100px",
-                    sm: "150px",
-                    md: "152px",
-                    lg: "230px",
-                  }}}
-                >
-                  <Button
-                    
-                    sx={{
-                        width:{
-                            xs: "150px",
-                            sm: "150px",
-                            md: "152px",
-                            lg: "230px",
-                          },
-                           minWidth: "100%",
-                          border:"1px red solid",
-                      padding: { xs: 3, sm: 4, md: 4, lg: 0 },
-                      fontSize: {
-                        xs: "0.8rem",
-                        sm: "1rem",
-                        md: "1.2rem",
-                        lg: "1.5rem",
-                      },
-                      "&:hover": {
-                        transform: "scale(1.2)", // Slightly enlarge on hover
-                        // transition: "0.99s", // Smooth transition effect
-                        // scale: 0.2,
-                      },
-                    }}
-
-                    onClick={()=>navigate()}
-                  >
-                   <Box>
-                   <Box sx={{border:"1px solid red", width:{
-                            xs: "150px",
-                            sm: "150px",
-                            md: "152px",
-                            lg: "230px",
-                          }}}>
-                    <img  src="https://aujourdhui.ma/wp-content/uploads/2016/02/866360274.jpg" />
-                   </Box>
-                   {item.name}
-                   </Box>
-                  </Button>
-                </Grid>
-              ))}
-            </Grid>
-
-            
-
-            
-          </Box> */}
-{/* 
-          <Box
-            sx={{
-              height: "50px",
-              
-            }}
-          >
-
-          </Box> */}
+         
 
 
 
@@ -147,8 +64,9 @@ export default function () {
                         lg: "1.5rem",
                       }, // Responsive text size
                       "&:hover": {
+                        backgroundColor:"#E0E0E0	",
                         opacity: 0.8,
-                        transform: "scale(1.0999)",
+                        transform: "scale(1.09999)",
                         transition: "0.89s",
                       },
                       
@@ -180,70 +98,7 @@ export default function () {
           </Box>
 
 
-          {/* <Box>
-            <Grid
-              container
-              sx={{ gap: { xs: 2, sm: 3, md: 3, lg: 4 } }}
-              justifyContent="center"
-            >
-              {buttonsData.map((btn, index) => (
-                <Grid
-                  item
-                  xs={12} 
-                  sm={12} 
-                  md={12} 
-                  lg={4} 
-                  xl={4} 
-                  key={index}
-                >
-                  <Box
-                   
-                    sx={{
-                     display: "flex",
-                      border:"1px solid red",                    
-                      flexDirection: "column",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      textAlign: "center",
-                    //   padding: { xs: 2, sm: 3, md: 4, lg: 5 },
-                    //  width: { xs: 50, sm: 150, md: 180, lg: 200 },
-                      fontSize: {
-                        xs: "0.8rem",
-                        sm: "1rem",
-                        md: "1.2rem",
-                        lg: "1.5rem",
-                      }, // Responsive text size
-                      "&:hover": {
-                        backgroundColor: "secondary.main",
-                        transform: "scale(1.05)",
-                        transition: "0.3s",
-                      },
-                    }}
-                  >
-                  
-                    <Box
-                      component="img"
-                      src="https://aujourdhui.ma/wp-content/uploads/2016/02/866360274.jpg"
-                      alt={btn.label}
-                      sx={{
-                        //  width: { xs: 50, sm: 150, md: 180, lg: 200 }, // Responsive image size
-                        height: "auto",
-                        // maxWidth: "100%",
-                        marginBottom: 1,
-                      }}
-                    />
-                  
-                    <Typography
-                      variant="h6"
-                      sx={{ fontSize: { xs: "1rem", md: "1.5rem" } }}
-                    >
-                      {btn.label}
-                    </Typography>
-                  </Box>
-                </Grid>
-              ))}
-            </Grid>
-          </Box> */}
+          
 
 
 

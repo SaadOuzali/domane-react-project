@@ -6,8 +6,14 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
 import "./card.css";
-export default function MediaCard({ img, name }) {
-  console.log("saad");
+import { useNavigate } from "react-router-dom";
+export default function MediaCard({ img, name,path }) {
+  
+  const handleClick = () => {
+    window.open(path, '_blank');
+  };
+
+ 
   return (
     <Card sx={{ maxWidth: 345, height: 290 }}>
       <div>
@@ -20,14 +26,13 @@ export default function MediaCard({ img, name }) {
           <Button
             variant="contained"
             sx={{ backgroundColor: "#4b0000", borderRadius: "10px" }}
+            onClick={handleClick}
           >
             acceder
           </Button>
         </div>
       </CardContent>
-      {/* <CardActions>
-        <Button size="small">Acceder</Button>
-      </CardActions> */}
+      
     </Card>
   );
 }

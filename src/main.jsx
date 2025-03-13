@@ -8,7 +8,7 @@ import Solution from './Solution.jsx'
 import Data from './Data.jsx'
 import Iot from './Iot.jsx'
 import Menu from './Menu.jsx'
-import Appbar from './Appbar.jsx'
+
 
 
 //routing
@@ -36,11 +36,8 @@ const routes=createBrowserRouter([{
                 element:<Iot />
             }
         ],
-       },
-       {
-        path:"/bar",
-        element: <Appbar />
        }
+      
 ])
 createRoot(document.getElementById('root')).render(
   
